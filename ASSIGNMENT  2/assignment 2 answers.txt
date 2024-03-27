@@ -1,0 +1,50 @@
+Ans1)
+Enter first number
+2
+Enter the second number and value for taking modulus
+3
+6
+Output is : 0
+Ans2)
+Enter the first number 
+3
+Enter second number 
+2
+1  1     
+
+Ans3)
+2
+3
+2
+
+Ans4)
+#include<iostream>
+using namespace std;
+int main(){
+float radius,height,pi = 3.1415,volume;
+cout<<"Enter the radius : ";
+cin>>radius;
+cout<<"Enter the height : ";
+cin>>height;
+volume = pi*radius*radius*height;
+cout<<"The volume of the cylinder is : "<<volume;
+return 0;
+}        
+
+Ans5)
+#include<iostream>
+using namespace std;
+int main(){
+char x,y;
+cout<<"Enter 1st character : ";
+cin>>x;
+cout<<"Enter 2nd character : ";
+cin>>y;
+int n = (int)x;
+int v = (int)y;
+cout<<"The difference of ascii values is : "<<n-v;
+return 0;
+}
+Ans6)
+49                                                                             
+
